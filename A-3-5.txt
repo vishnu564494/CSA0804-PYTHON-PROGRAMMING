@@ -1,0 +1,4 @@
+text = "Hello Python World"
+substring = "Python"
+index = text.find(substring)
+print("Index:", index)
