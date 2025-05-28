@@ -1,0 +1,3 @@
+text = "Python is fun. Python is easy."
+new_text = text.replace("Python", "Java")
+print(new_text)

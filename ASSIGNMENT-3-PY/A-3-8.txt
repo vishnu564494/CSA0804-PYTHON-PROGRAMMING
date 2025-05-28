@@ -1,0 +1,7 @@
+from collections import Counter
+
+text = "banana"
+freq = Counter(text)
+most_common = freq.most_common()
+if len(most_common) >= 2:
+    print("Second most frequent character:", most_common[1][0])

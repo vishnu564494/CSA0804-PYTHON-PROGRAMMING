@@ -1,0 +1,3 @@
+text = "Hello world, welcome to Python"
+words = text.split()
+print("Number of words:", len(words))

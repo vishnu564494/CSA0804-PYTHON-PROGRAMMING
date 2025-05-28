@@ -1,0 +1,3 @@
+str1 = "listen"
+str2 = "silent"
+print("Anagram" if sorted(str1) == sorted(str2) else "Not anagram")

@@ -1,0 +1,4 @@
+import re
+email = "test@example.com"
+pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+print("Valid Email" if re.match(pattern, email) else "Invalid Email")
